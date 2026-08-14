@@ -17,6 +17,9 @@
   <img src="https://img.shields.io/badge/PRs-welcome-blueviolet" alt="PRs Welcome">
 </p>
 
+<p align="center">
+  <a href="https://shortlyst-resumes.streamlit.app/"><strong>🚀 Try it live →</strong></a>
+</p>
 ---
 
 ## 📑 Table of Contents
@@ -41,6 +44,11 @@ Recruiters manually screening dozens of resumes against a job description is slo
 > Shortlyst is a **decision-support tool, not a decision-maker.** Every score comes with the evidence behind it — matched skills, missing skills, and a short verdict — so the human always makes the final call.
 
 ---
+## 🌐 Live Demo
+
+**[shortlyst-resumes.streamlit.app](https://shortlyst-resumes.streamlit.app/)**
+
+> ⏳ Note: the backend runs on Render's free tier, which sleeps after 15 minutes of inactivity. The first request after a period of inactivity may take 30–50 seconds to wake up — subsequent requests are fast.
 
 ## 🎬 Demo
 
