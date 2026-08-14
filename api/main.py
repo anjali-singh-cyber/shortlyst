@@ -11,10 +11,18 @@ from api.store import create_job
 from core.process_uploaded_resumes import process_uploaded_resumes
 from api.store import get_job, save_results
 from core.db import init_db
+from fastapi.middleware.cors import CORSMiddleware
 
 init_db()
 
-app = FastAPI(title="FitCheck API")
+app = FastAPI(title="Shortlyst API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # demo/portfolio ke liye theek hai; production mein specific domain daalte
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class JDUploadResponse(BaseModel):
