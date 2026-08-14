@@ -20,7 +20,6 @@
 <p align="center">
   <a href="https://shortlyst-resumes.streamlit.app/"><strong>🚀 Try it live →</strong></a>
 </p>
----
 
 ## 📑 Table of Contents
 
