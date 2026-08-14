@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="500" alt="Shortlyst logo">
+  <img src="assets/logo1.png" width="500" alt="Shortlyst logo">
 </p>
 
 <h3 align="center">Screen. Score. Shortlist.</h3>
