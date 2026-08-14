@@ -56,10 +56,10 @@ Recruiters manually screening dozens of resumes against a job description is slo
 -->
 
 <p align="center">
-  <img src="assets/demo.gif" width="700" alt="Shortlyst demo">
+  <img src="assets/demo1.gif" width="700" alt="Shortlyst demo">
 </p>
 
-<p align="center"><i>🎥 Demo GIF coming soon — record a walkthrough and drop it in <code>assets/demo.gif</code></i></p>
+<p align="center"><i>🎥 Demo GIF of the Prototpye</i></p>
 
 ---
 
