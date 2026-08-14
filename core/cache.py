@@ -13,6 +13,11 @@ def _load_cache() -> dict:
 
 
 def _save_cache(cache: dict) -> None:
+    # Ensure the parent folder exists before writing — on a fresh clone
+    # (like Render's), an empty "uploads/" directory may not exist at all,
+    # since Git never tracks empty folders. Creating it here means the
+    # cache works regardless of what folders happened to get committed.
+    CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2)
 
